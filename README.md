@@ -1,6 +1,6 @@
 # AHOS: Hacking Web Applications
 
-Welcome to the **Ethical Hacking Labs** repository! This project provides interactive, hands-on ethical hacking labs designed to help learners practice and refine their cybersecurity skills. 
+Welcome to the **AHOS: Hacking Web Applications** repository! This project provides interactive, hands-on ethical hacking labs designed to help learners practice and refine their cybersecurity skills. 
 
 ---
 
