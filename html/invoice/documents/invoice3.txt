@@ -1,0 +1,43 @@
+======================================================
+                           INVOICE
+======================================================
+Invoice #:          INV-2024-0987
+Date Issued:        October 29, 2024
+Payment Due Date:   November 15, 2024
+
+------------------------------------------------------
+BILL TO:
+    Client Name:       Robert Stevens
+    Address:           789 Cedar Lane
+                       Unit 12, Riverside, CA 92501
+
+FROM:
+    ProTech Design Agency
+    245 Innovation Drive
+    Suite 110, Austin, TX 73301
+
+------------------------------------------------------
+Description                                   Qty    Unit Price    Line Total
+------------------------------------------------------
+Graphic Design Services                       12     $85.00        $1020.00
+Logo and Branding Package                      1     $450.00       $450.00
+Monthly Website Maintenance                    1     $200.00       $200.00
+------------------------------------------------------
+                                                        Subtotal:     $1670.00
+                                                        Tax (7.5%):   $125.25
+                                                        Total Due:    $1795.25
+
+------------------------------------------------------
+Payment Terms:
+    Payment is due in full by November 15, 2024. Late payments
+    are subject to a 1.5% monthly late fee on the outstanding
+    balance.
+
+Payment Options:
+    - Bank Transfer: Account #567890123, ProTech Design Agency
+    - Online Payment: Please visit our website and select
+      “Make a Payment” to complete your transaction.
+
+Thank you for your business!
+
+======================================================

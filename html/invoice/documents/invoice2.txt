@@ -1,0 +1,53 @@
+======================================================
+                       INVOICE
+======================================================
+Invoice Number:   #A-2024-01234
+Date Issued:      October 29, 2024
+Payment Due:      November 15, 2024
+
+------------------------------------------------------
+BILL TO:
+    Name:          Jessica Cornell
+    Address:       456 Oakwood Ave.
+                   Apt 4B, Metropolis, NY 10001
+
+
+FROM:
+    Stellar Marketing Solutions
+    789 Commerce Blvd, Suite 500
+    Los Angeles, CA 90001
+
+
+------------------------------------------------------
+Description                                  Qty   Price      Total
+------------------------------------------------------
+Social Media Management Services             10    $100.00    $1000.00
+SEO Optimization Package                     1     $750.00    $750.00
+Content Creation (Blog & Articles)           8     $80.00     $640.00
+------------------------------------------------------
+                                                    Subtotal:   $2390.00
+                                                    Tax (8%):   $191.20
+                                                    Total Due:  $2581.20
+
+------------------------------------------------------
+Payment Instructions:
+    Please remit payment via one of the following methods:
+    
+    Bank Transfer:
+        Stellar Marketing Solutions
+        Account #: 987654321
+        Bank Name: National Bank of California
+        Routing #: 123456789
+
+------------------------------------------------------
+Notes:
+    Thank you for choosing Stellar Marketing Solutions! If you have
+    any questions regarding this invoice, please contact us via official channels.
+
+Late Payment Policy:
+    Payments received after the due date may incur a late fee of 2%
+    per month on the outstanding balance.
+
+======================================================
+                       THANK YOU!
+======================================================

@@ -1,0 +1,14 @@
+sudo sqlite3 comment.db
+
+CREATE TABLE comment (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    message TEXT,
+    date TEXT
+);
+
+CTRL+D
+
+sudo chmod a+w ../comment
+sudo chmod a+w comment.db
+

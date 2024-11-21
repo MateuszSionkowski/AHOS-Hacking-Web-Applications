@@ -1,0 +1,13 @@
+sudo sqlite3 guestbook.db
+
+CREATE TABLE guestbook (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    message TEXT,
+    date TEXT
+);
+
+
+sudo chmod a+w ../guestbook
+sudo chmod a+w guestbook.db
+
