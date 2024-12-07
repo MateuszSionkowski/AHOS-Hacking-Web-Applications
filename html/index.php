@@ -3,7 +3,7 @@ require __DIR__ . '/functions.php';
 
 function authenticate($username, $password)
 {
-    if ((($username=="hacker")&&($password=="future")))
+    if ((($username=="ethical")&&($password=="hacker")))
     {
         setcookie("past",1);
         return TRUE;
@@ -98,7 +98,7 @@ $unauthenticated_page = <<< XXXXXX
 
     <h2>Exercise 0</h2>
     <h3>Guess the password to enter the lab</h3>    
-    <h3>Username is "hacker"</h3>
+    <h3>Username is "ethical"</h3>
 
     <div class="login-container">
 

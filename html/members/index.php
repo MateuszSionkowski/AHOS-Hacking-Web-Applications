@@ -3,7 +3,7 @@ require __DIR__ . '/../functions.php';
 
 function authenticate($username, $password)
 {
-    if ((($password=="007")))
+    if ((( ((string)$password)==="007" )))
     {
         return TRUE;
     }
@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $password = $_POST['password'];
     } 
-    $error_message = "Oops! Wrong password. Try again!";
+    $error_message = "Oops! Wrong password. Try again...";
 }
 
 
