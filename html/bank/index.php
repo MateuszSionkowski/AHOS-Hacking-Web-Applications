@@ -90,7 +90,7 @@ $page = <<< XXXXXX
   };
  
   function fetchAccountHistory() {
-    fetch('http://127.0.0.1/bank/history.php', {method: 'POST',  headers: {        "Content-Type": "application/json" },  body: JSON.stringify(data)}) 
+    fetch('http://lab.local/bank/history.php', {method: 'POST',  headers: {        "Content-Type": "application/json" },  body: JSON.stringify(data)}) 
       .then(response => response.json())
       .then(data => displayHistory(data))
       .catch(error => console.error('Error fetching account history:', error));

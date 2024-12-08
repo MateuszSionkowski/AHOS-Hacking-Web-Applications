@@ -70,7 +70,7 @@ $page = <<< XXXXXX
         async function revealGiftRecipient() {
             try {
                 // Simulating an API call to get the Secret Santa recipient's name
-                const response = await fetch('http://127.0.0.1/secret_santa/who.php',  {method: 'POST',  headers: {        "Content-Type": "application/json" },  body: JSON.stringify(jsondata)}); //  API endpoint
+                const response = await fetch('http://lab.local/secret_santa/who.php',  {method: 'POST',  headers: {        "Content-Type": "application/json" },  body: JSON.stringify(jsondata)}); //  API endpoint
                 const data = await response.json();
                 
                 // Display the recipient's name

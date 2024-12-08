@@ -3,7 +3,7 @@ require __DIR__ . '/../functions.php';
 
 function authenticate($username, $password)
 {
-    if ((($password=="Ivone27")))
+    if ((($password=="dragon2025")))
     {
         return TRUE;
     }
