@@ -32,10 +32,16 @@ chmod -R 777 /var/www/html
 
 service nginx restart
 
+# enabling php and nginx for service restart after vm shutdown
+sudo systemctl enable nginx
+sudo systemctl enable php8.2-fpm
+
+
 # docker containers with prebuild vulnerable apps
 docker run -d --restart unless-stopped -p 8000:80 --name drupal-vuln-container allhandsonsec/vulnerable-drupal:latest
 docker run -d --restart unless-stopped -p 9000:80 --name thinkphp-vuln-container vulhub/thinkphp:5.0.23
 
+# setting up the lab.local domain
 echo "" >> /etc/hosts 
 echo "127.0.0.1 lab.local" >> /etc/hosts
 
