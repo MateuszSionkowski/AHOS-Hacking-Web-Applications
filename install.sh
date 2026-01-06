@@ -48,6 +48,8 @@ echo "127.0.0.1 lab.local" >> /etc/hosts
 # setting up homepage
 sed -i 's|file:///usr/share/kali-defaults/web/homepage.html|http://lab.local|' /etc/chromium/master_preferences
 for dir in /home/kali/.mozilla/firefox/*default*; do echo 'user_pref("browser.startup.homepage", "http://lab.local");' >> "$dir/user.js"; chmod a+r "$dir/user.js"; done
+for dir in /home/kali/.mozilla/firefox/*default*; do echo 'user_pref("security.insecure_password.ui.enabled", "false");' >> "$dir/user.js"; chmod a+r "$dir/user.js"; done
+for dir in /home/kali/.mozilla/firefox/*default*; do echo 'user_pref("security.insecure_field_warning.contextual.enabled", "false");' >> "$dir/user.js"; chmod a+r "$dir/user.js"; done
 
 # Unzip wordlists
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz
