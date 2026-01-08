@@ -18,8 +18,8 @@ fi
 
 apt-get -y update
 apt-get  install -y php8.2
-apt-get  install -y php8.2-fpm
-service  php8.2-fpm start
+apt-get  install -y php8.4-fpm
+service  php8.4-fpm start
 
 apt-get install -y php8.2-sqlite3
 apt-get install -y docker-cli
@@ -34,7 +34,7 @@ service nginx restart
 
 # enabling php and nginx for service restart after vm shutdown
 sudo systemctl enable nginx
-sudo systemctl enable php8.2-fpm
+sudo systemctl enable php8.4-fpm
 
 
 # docker containers with prebuild vulnerable apps
@@ -53,6 +53,8 @@ for dir in /home/kali/.mozilla/firefox/*default*; do echo 'user_pref("security.i
 
 # Unzip wordlists
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+# Keep 2024 wallpaper for cohesion with the recorded videos
+sudo wget https://www.kali.org/wallpapers/images/2024/kali-ferrofluid.jpg  -O /usr/share/backgrounds/kali-16x9/default
 
 echo "Installation Complete"
 
