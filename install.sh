@@ -21,7 +21,7 @@ apt-get  install -y php8.2
 apt-get  install -y php8.4-fpm
 service  php8.4-fpm start
 
-apt-get install -y php8.2-sqlite3
+apt-get install -y php8.4-sqlite3
 apt-get install -y docker-cli
 apt-get install -y docker.io
 
