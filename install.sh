@@ -9,6 +9,9 @@ fi
 # Your script's main logic goes here
 echo "Running with sudo. Proceeding..."
 
+
+apt-get -y update
+sudo apt-get -y install nginx
 service nginx start
 
 # If there are any contents of the /var/www/html folder - move them as backup before overwriting
