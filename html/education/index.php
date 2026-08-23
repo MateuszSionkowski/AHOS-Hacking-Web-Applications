@@ -45,7 +45,6 @@ $unauthenticated_page = <<< XXXXXX
             
             /* Fullscreen background with overlay */
             .hero {
-                background: url('https://source.unsplash.com/1600x900/?learning') no-repeat center center/cover;
                 height: 100vh;
                 position: relative;
                 display: flex;
@@ -247,7 +246,6 @@ $authenticated_page = <<< XXXXXX
         
         /* Fullscreen background with overlay */
         .hero {
-            background: url('https://source.unsplash.com/1600x900/?learning') no-repeat center center/cover;
             height: 50vh;
             position: relative;
             display: flex;
