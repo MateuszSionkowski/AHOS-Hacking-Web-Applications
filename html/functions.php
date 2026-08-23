@@ -79,7 +79,6 @@ function load_header($page_title = "Page Title")
                     padding: 40px 30px;
                 }
 
-                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); /* Clean modern font */
                 .footerftr{
                     text-align: center;
                     margin-top:200px;
