@@ -17,10 +17,12 @@ if (isset($_POST['imageId'])) {
 
 }
 $displ=["","","","","","",""];
+$displl=["","","","","","",""];
 for ($i = 1; $i <= 4; $i++) {
     if (isset($_COOKIE[$i]) || ($imageId == $i))
     {
       $displ[$i] = " style='display: none;' "  ;
+      $displl[$i] = "xxx"  ;
     }
 }
 
@@ -38,7 +40,6 @@ $page = <<< XXXXXX
 
 
 
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         .lab {
             font-family: 'Roboto', sans-serif;
@@ -140,28 +141,28 @@ $page = <<< XXXXXX
 <div class="gallery">
     <div class="gallery-item" $displ[1] >
         <img src="images/photo1.png" alt="Image 1">
-        <form action="" method="POST" class="delete-form">
+        <form action="" method="POST" class="delete-form$displl[1]">
             <input type="hidden" name="imageId" value="1">
             <button type="submit" class="delete-button">Delete</button>
         </form>
     </div>
     <div class="gallery-item" $displ[2] >
         <img src="images/photo2.png" alt="Image 2">
-        <form action="" method="POST" class="delete-form">
+        <form action="" method="POST" class="delete-form$displl[2]">
             <input type="hidden" name="imageId" value="2">
             <button type="submit" class="delete-button">Delete</button>
         </form>
     </div>
     <div class="gallery-item" $displ[3] >
         <img src="images/photo3.png" alt="Image 3">
-        <form action="" method="POST" class="delete-form">
+        <form action="" method="POST" class="delete-form$displl[3]">
             <input type="hidden" name="imageId" value="3">
             <button type="submit" class="delete-button">Delete</button>
         </form>
     </div>
     <div class="gallery-item" $displ[4] >
         <img src="images/photo4.png" alt="Image 4">
-        <form action="" method="POST" class="delete-form">
+        <form action="" method="POST" class="delete-form$displl[4]">
             <input type="hidden" name="imageId" value="4">
             <button type="submit" class="delete-button">Delete</button>
         </form>
@@ -200,3 +201,4 @@ XXXXXX;
 
 
 ?>
+              
